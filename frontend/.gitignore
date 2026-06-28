@@ -1,0 +1,48 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.env
+.venv
+venv/
+env/
+
+# ── Large data files ──────────────────────────────────────────
+backend/flights.csv
+backend/airports.csv
+backend/airlines.csv
+*.csv
+
+# ── Model files (large binaries) ─────────────────────────────
+backend/models/*.h5
+backend/models/*_backup.h5
+
+# ── Node / Frontend ───────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+
+node_modules/
+__pycache__/
+*.pyc
+*.h5
+*.pkl
+backend/models/
+.env
+dist/
+build/
+
